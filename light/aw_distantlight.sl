@@ -1,4 +1,13 @@
-#define ALPHA 7
+/************************************************************************
+ * aw_distantlight.sl - This is a standard distant light with outputs for 
+ * shadows which aw_surface_std.sl imports and uses as an AOV
+ *
+ * Author: Alan Warren (bluemoonshine@gmail.com)
+ *
+ * $Revision: 1.1 $    $Date: 2009/03/12 $
+ *
+ ************************************************************************/
+
 
 class aw_distantlight(
 			   float intensity = 1;

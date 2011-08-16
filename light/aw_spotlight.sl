@@ -1,3 +1,12 @@
+/************************************************************************
+ * aw_spotlight.sl - This is a standard spotlight with outputs for shadows
+ * which aw_surface_std.sl imports and uses as an AOV
+ *
+ * Author: Alan Warren (bluemoonshine@gmail.com)
+ *
+ * $Revision: 1.1 $    $Date: 2009/03/12 $
+ *
+ ************************************************************************/
 
 class aw_spotlight(
 			   float intensity = 1;

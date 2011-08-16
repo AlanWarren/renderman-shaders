@@ -1,8 +1,13 @@
-//
-// aw_prmanEnvLight.sl - Environment light for indirectdiffuse,
-// occlusion, reflection occlusion, caustics and sss
-// Alan Warren, 2011.
-//
+/************************************************************************
+ * aw_prmanEnvlight.sl - This is my environment light, which is called
+ * from aw_surface_std.sl. It's functionality is fully realized from
+ * within a Houdini Digital Asset similar to the one on my website.
+ *
+ * Author: Alan Warren (bluemoonshine@gmail.com)
+ *
+ * $Revision: 1.1 $    $Date: 2011/06/02 $
+ *
+ ************************************************************************/
 
 #include <stdrsl/ShadingContext.h> // for ShadingUtils
 #include "aw/aw_PrmanEnvLight.h"

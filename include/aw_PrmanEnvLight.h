@@ -1,3 +1,13 @@
+/************************************************************************
+ * aw_PrmanEnvlight.h - struct for AOV processing
+ *
+ * Author: Alan Warren (bluemoonshine@gmail.com)
+ *
+ * $Revision: 1.1 $    $Date: 2009/03/12 $
+ *
+ ************************************************************************/
+
+
 #ifndef aw_PrmanEnvLight_h
 #define aw_PrmanEnvLight_h
 

@@ -1,17 +1,18 @@
-/****************************************************************************
-          File:  aw_glass.sl
-       Created:  Nov 14, 2008
-        Author:  Alan Warren
-		
-		Credit: Attenuation ported from Mario Marengo's VEX Glass on od[force] except the way 
-      in which ray length is obtained, which was an idea posted by Pixar's staff in the 
-      prman forums. Also, Pixar's glassrefr.sl was used for ideas. In other words I didn't 
-      do much but I can take credit for hacking with the opacity at the end for 
-      transmission shadows :) 
+/************************************************************************
+ * aw_glass_v5.sl - Glass shader with absorption, glossy spec and color shadows
+ *
+ * Author: Alan Warren (bluemoonshine@gmail.com)
+ *
+ *	Credit: Attenuation ported from Mario Marengo's VEX Glass on od[force] except the way 
+ *  in which ray length is obtained, which was an idea posted by Pixar's staff in the 
+ *  prman forums. Also, Pixar's glassrefr.sl was used for ideas. In other words I didn't 
+ *  do much but I can take credit for hacking with the opacity at the end for 
+ *  transmission shadows :) 
+ *
+ * $Revision: 1.1 $    $Date: 2008/09/14 01:59:46 $
+ *
+ ************************************************************************/
 
-   Description:  glass shader with absorbtion, glossy specular and color shadows.
-
-*****************************************************************************/
 #include "../include/rmannotes.h"
 #include"../include/normals.h"
 

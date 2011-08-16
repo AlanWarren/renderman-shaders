@@ -1,3 +1,14 @@
+/************************************************************************
+ * aw_TexturingUtils.h - structs for filterregions and texturing with 
+ * emphasis on shaders built for houdini. Displacement functions supporting
+ * ptex based vector displacement are also present.
+ *
+ * Author: Alan Warren (bluemoonshine@gmail.com)
+ *
+ * $Revision: 1.1 $    $Date: 2009/03/12 $
+ *
+ ************************************************************************/
+
 #ifndef aw_TexturingUtils_h
 #define aw_TexturingUtils_h
 

@@ -1,3 +1,14 @@
+/************************************************************************
+ * aw_utils.h - standard utilities built up over the years. 
+ *
+ * Credit: Courtesy of a lot of sources. The Pixar forums, Siggraph paper 
+ * "What the Ri Spec never told you", odforce, shrimp, and Philippe Leprince. 
+ *
+ * $Revision: 1.1 $    $Date: 2008/01/18 $
+ *
+ * turbulence functions 
+ *
+ ************************************************************************/
 
 /* Shader Utilities */
 #define ALPHA 7

@@ -1,3 +1,15 @@
+/************************************************************************
+ * aw_surface_std.sl - This is my main uber shader responsible for 90% of
+ * the shading in my reel. It's designed to work with aw_prmanEnvlight
+ * It's interface is fully represented in a Houdini Digitial Asset.
+ *
+ * Author: Alan Warren (bluemoonshine@gmail.com)
+ *
+ * $Revision: 1.1 $    $Date: 2010/02/10 $
+ *
+ ************************************************************************/
+
+
 #include "rfm_blinn.h"
 #include "normals.h"
 #include <stdrsl/SphericalHarmonics.h>
